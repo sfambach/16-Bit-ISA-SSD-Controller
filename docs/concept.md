@@ -4,7 +4,7 @@ Status: **concept 0.1 (2026-10-25)**. Nothing has been drawn, built or tested.
 Everything marked *assumption* is open until Stefan confirms it.
 
 Requested by Stefan on 2026-10-25 as the 16-bit sibling of
-[isa8_ssd_controller](https://github.com/sfambach/isa8_ssd_controller).
+[isa8_ssd_controller](https://github.com/sfambach/8-Bit-ISA-SSD-Controller).
 
 ## 1. Goal
 
@@ -82,7 +82,7 @@ flowchart LR
 
 ## 6. Open points
 
-1. Repo `sfambach/isa16_ssd_controller` – Stefan creates it (2026-10-25).
+1. Repo `sfambach/16-Bit-ISA-SSD-Controller` – Stefan creates it (2026-10-25).
 2. One or two GALs.
 3. Test SATA SSD + converter on an existing 16-bit IDE port first.
 
