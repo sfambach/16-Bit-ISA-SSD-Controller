@@ -1,10 +1,10 @@
-# isa16_ssd_controller – Concept (16-Bit ISA SSD-Controller)
+# 16-Bit-ISA-SSD-Controller – Concept (16-Bit ISA SSD-Controller)
 
 Status: **concept 0.1 (2026-10-25)**. Nothing has been drawn, built or tested.
 Everything marked *assumption* is open until Stefan confirms it.
 
 Requested by Stefan on 2026-10-25 as the 16-bit sibling of
-[isa8_ssd_controller](https://github.com/sfambach/8-Bit-ISA-SSD-Controller).
+[8-Bit-ISA-SSD-Controller](https://github.com/sfambach/8-Bit-ISA-SSD-Controller).
 
 ## 1. Goal
 
@@ -28,7 +28,7 @@ A combined 8/16-bit card is not planned: a 16-bit edge does not fit many XT slot
 
 ### 1.2 Requirements for the SSDs
 
-Same as isa8_ssd_controller §1.1: SATA I capable (JM20330 is SATA 1.0),
+Same as 8-Bit-ISA-SSD-Controller §1.1: SATA I capable (JM20330 is SATA 1.0),
 classic ATA PIO commands, small sizes are fine (DOS without INT 13h extensions
 ~8 GB, FAT16 max 2 GB). Mainboard BIOSes before ~1994 see max 504 MB without
 LBA – the XUB AT build in the optional ROM fixes that.
@@ -71,7 +71,7 @@ flowchart LR
 
 ## 4. Extensions for later versions
 
-1. Setup menu in ROM (shared idea with isa8_ssd_controller §8.4).
+1. Setup menu in ROM (shared idea with 8-Bit-ISA-SSD-Controller §8.4).
 2. Bridge chips on the card instead of plug-on converters.
 
 ## 5. Licences
