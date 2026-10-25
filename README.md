@@ -17,6 +17,10 @@ Sister project of [8-Bit-ISA-SSD-Controller](https://github.com/sfambach/8-Bit-I
 
 Details: [docs/concept.md](docs/concept.md)
 
+## History
+
+- 2026-10-25: Split off the 8-bit project for 286–486 machines: standard AT IDE instead of the XT-IDE latch scheme, faster and works with standard BIOS and CD-ROM drivers.
+
 ## License
 
 - Hardware: [CERN-OHL-S-2.0](LICENSE)
